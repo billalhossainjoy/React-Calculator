@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.numbers button{
+    @apply bg-blue-500 w-16 h-16 rounded-full duration-300 text-2xl text-gray-100 sm:hover:bg-blue-800 active:bg-blue-800 sm:active:bg-blue-400
+}
+
+.instractions button{
+    @apply bg-blue-500 w-16 h-16 rounded-full duration-300 text-2xl text-gray-100 sm:hover:bg-blue-800 active:bg-blue-800 sm:active:bg-blue-400
+}
