@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.numbers button{
-    @apply bg-blue-500 w-16 h-16 rounded-full duration-300 text-2xl text-gray-100 sm:hover:bg-blue-800 active:bg-blue-800 sm:active:bg-blue-400
+
+button{
+    @apply bg-white border-black/50 border text-black p-4 rounded-xl m-1 hover:bg-orange-300 duration-300 hover:text-white active:bg-yellow-500
 }
 
-.instractions button{
-    @apply bg-blue-500 w-16 h-16 rounded-full duration-300 text-2xl text-gray-100 sm:hover:bg-blue-800 active:bg-blue-800 sm:active:bg-blue-400
-}
